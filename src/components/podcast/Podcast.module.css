@@ -1,0 +1,28 @@
+.container {
+  color: #e6d070;
+  display: flex;
+  margin-top: 8rem;
+  justify-content: center;
+}
+.title {
+  position: absolute;
+  justify-content: center;
+  font-size: 30px;
+}
+.linha {
+  position: absolute;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.linha > hr {
+  width: 30rem;
+  height: 1px;
+  border: none;
+  background: white;
+  opacity: 0.3;
+  margin-top: 1rem;
+}
+.wrapper:hover {
+  color: #fff;
+}

@@ -1,0 +1,54 @@
+.container {
+  color: #e6d070;
+  display: flex;
+  margin-top: 8rem;
+  justify-content: center;
+}
+.title {
+  position: absolute;
+  justify-content: center;
+  font-size: 30px;
+}
+.linha {
+  position: absolute;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.linha > hr {
+  width: 30rem;
+  height: 1px;
+  border: none;
+  background: white;
+  opacity: 0.3;
+  margin-top: 1rem;
+}
+.wrapper {
+  display: flex;
+  margin-top: 10rem;
+  margin-right: 10rem;
+  justify-content: flex-start;
+  position: relative;
+  /* grid-template-columns: 5fr, 5fr; */
+}
+.wrapper > img {
+  width: 20rem;
+  position: absolute;
+  margin-left: 16rem;
+  margin-top: 5rem;
+}
+.circle {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  z-index: -99;
+  bottom: 0;
+  margin-left: 13rem;
+  background: linear-gradient(135.74deg, #0b4f82 14.09%, #002142 83.81%);
+}
+.wrappertext {
+  margin-left: 1rem;
+  margin-right: 10rem;
+  margin-top: 20rem;
+  color: white;
+}

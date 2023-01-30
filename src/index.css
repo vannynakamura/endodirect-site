@@ -1,0 +1,12 @@
+@import url(//db.onlinewebfonts.com/c/af089c51d74ffa3c6a675fd6024b302b?family=Futura+Hv+BT);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Futura Hv BT";
+  /* font-family: "Open Sans", sans-serif; */
+  background: var(--bg);
+  transition: all 3ms ease;
+  /* fontcolor: */
+  color: var(--black);
+}

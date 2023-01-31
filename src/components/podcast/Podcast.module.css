@@ -26,3 +26,78 @@
 .wrapper:hover {
   color: #fff;
 }
+
+.wrapperCard {
+  background: #002142;
+  /* background: #000; */
+  border-radius: 15px;
+  display: flex;
+  padding: 1.5rem;
+  margin-top: 13rem;
+  border-color: rgba(255, 255, 255, 0.473);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wrapperCard:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.card {
+  background: #e6d070;
+  border-radius: 15px;
+  /* overflow: hidden; */
+  padding: 0.5rem;
+  margin-right: 60rem;
+  height: 9rem;
+  width: 9rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardImage > img {
+  width: 8rem;
+  height: 4.2rem;
+  display: block;
+  object-fit: fill;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+}
+.cardContent {
+  color: #e6d070;
+  font-weight: 600px;
+  position: absolute;
+  margin-left: 15rem;
+  font-size: 25px;
+  margin-top: -1.5rem;
+}
+.cardContent:hover {
+  cursor: pointer;
+  text-decoration: underline #fff 1px;
+}
+.descricao {
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  margin-left: 15rem;
+  margin-top: 2.5rem;
+  font-size: 15px;
+  margin-right: 25rem;
+  text-align: justify;
+}
+.data {
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  margin-left: 53rem;
+  margin-top: 8.5rem;
+}
+.spot {
+  width: 3.5rem;
+  height: 3.5rem;
+  color: #e6d070;
+  margin-top: 7rem;
+  margin-right: 2rem;
+}
+.spot:hover {
+  /* color: #ffff; */
+  cursor: pointer;
+  transform: scale(1.1);
+}
